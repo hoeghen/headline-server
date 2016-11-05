@@ -4,11 +4,16 @@
   "description": "serves headlines",
   "main": "app.js",
   "dependencies": {
-    "lite-server": "^2.2.2"
+    "xmlhttprequest": "^1.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-sorted": "^0.1.0",
+    "lite-server": "^2.2.2",
+    "mocha": "^3.1.2"
+  },
   "scripts": {
-    "test": "test",
-    "dev" : "lite-server"
+    "test": "mocha --debug-brk",
+    "dev": "lite-server"
   }
 }
