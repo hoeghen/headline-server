@@ -1,0 +1,14 @@
+{
+  "name": "headlines-server",
+  "version": "1.0.0",
+  "description": "serves headlines",
+  "main": "app.js",
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "dev" : "lite-server"
+  }
+}
